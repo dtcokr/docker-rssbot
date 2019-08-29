@@ -3,7 +3,7 @@ services:
     rssbot:
         build: .
         volumes:
-            - .:/rustrssbot
+            - /path/to/store/datafile:/rss
         environment:
-            - TELEGRAM_BOT_TOKEN=<YOUR_BOT_KEY>
+            - TK=YOUR:TELEGRAM-BOT-TOKEN
         restart: always
