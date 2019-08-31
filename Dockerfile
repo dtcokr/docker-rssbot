@@ -16,6 +16,7 @@ RUN git clone --depth 1 https://github.com/iovxw/rssbot.git . \
 # Run
 # 
 FROM alpine:latest
+LABEL maintainer "dtcokr <dtcokr@outlook.com>"
 
 COPY --from=builder /home/rust/src/target/x86_64-unknown-linux-musl/release/rssbot \
     /usr/local/bin/
