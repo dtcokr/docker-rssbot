@@ -1,4 +1,7 @@
 # docker-rssbot
+![Docker Pulls](https://img.shields.io/docker/pulls/dtcokr/rssbot)
+[![](https://images.microbadger.com/badges/image/dtcokr/rssbot.svg)](https://microbadger.com/images/dtcokr/rssbot "Get your own image badge on microbadger.com")
+![GitHub last commit](https://img.shields.io/github/last-commit/dtcokr/docker-rssbot)
 
 Fork from [darkskygit(github)](https://www.github.com/darkskygit/rustrssbot-docker), source code by [iovxw(github)](https://github.com/iovxw/rssbot), very handy if you are an active(HARDCORE) Telegram user and eager to obtain information through the [old fashion RSS feed way](https://www.pcmag.com/news/309255/google-reader-bites-the-dust-whos-next).
 
